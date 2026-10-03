@@ -1,0 +1,107 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.error {
+  background: #ffe0e0;
+  color: #900;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.add-form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.add-form input {
+  flex: 1;
+  padding: 8px;
+}
+
+.add-form button {
+  padding: 8px 12px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.stats {
+  text-align: center;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.filters button {
+  flex: 1;
+  padding: 6px;
+  background: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.filters button.active {
+  background: green;
+  color: white;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.task-card.completed {
+  background: #eee;
+  color: #888;
+}
+
+.task-card.completed span {
+  text-decoration: line-through;
+}
+
+.task-card span {
+  flex: 1;
+}
+
+.task-card button {
+  padding: 4px 8px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.task-card button:hover {
+  background: #bbb;
+}
+
+.task-card button.delete:hover {
+  background: red;
+  color: white;
+}
